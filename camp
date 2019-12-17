@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ここにはWebページの設定に関する情報を記載していく。Webページ内には表示されない。必ず入れる要素が3つある
+　　　①文字コードの指定　ページの文字化けを防ぐHTML5で推奨されている文字コードはUTF-8
+　　　②ページタイトルの設定　<title></title>にてブラウザのタブに表示されるページのタイトル名を指定する
+　　　③CSSの読み込み　CSSファイルの読み込みはHTML内で行う。HTMLからCSSファイルを読み込む為には<link rel="stylesheet">を使う 
+　　　　　　　　　　　<link rel="stylesheet" href="読み込むCSSファイル名">の様に、CSSファイルを指定することが可能。 -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Practice_HTML</title>
+  </head>
+</html>
